@@ -3,10 +3,13 @@ angular.module("bear", []);
 angular.module("bear").controller("polarbearcontroller", ["$scope", function($scope){
 	$scope.message = "Add another price";
 	//$scope.classname="forthehiddenform";
-	$scope.price4="";
+	$scope.price1=0;
+	$scope.price2=0;
+	$scope.price3=0;
+	$scope.price4=0;
 	$scope.showthis=false;
 	$scope.counter=0;
-	$scope.price4="";
+	$scope.price5=0;
 	$scope.showthis1=false;
 
 	
