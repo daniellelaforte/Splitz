@@ -2,8 +2,8 @@
 <html ng-app="bear">
 <head>
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
-<script src="hideform.js"></script>
-<link rel="stylesheet" type="text/css" href="hideform.css">
+<script src="splitz.js"></script>
+<link rel="stylesheet" type="text/css" href="splitz.css">
 	<title>Splitz</title>
 </head>
 <body ng-controller="polarbearcontroller">
@@ -19,9 +19,10 @@
   Price:<br>
   <input type="text" name="price3" ng-model="price3">
   <br>
+  <div ng-class="classname">
   Price:<br>
-  <input type="text" name="price4" ng-model="price4"  ng-class="classname">
-  <br>
+  <input type="text" name="price4" ng-model="price4">
+  <br></div>
   <div ng-click="Show()">Add Another Price
 </div>
  

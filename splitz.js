@@ -7,7 +7,7 @@ angular.module("bear").controller("polarbearcontroller", ["$scope", function($sc
 	$scope.Submit = function() {
 			//event.preventDefault(); //don't need this - angular does this automatically
 		   // $scope.firstname=$scope.price1;
-		      $scope.total=$scope.price1 + $scope.price2 + $scope.price3
+		      $scope.total=Number($scope.price1) + Number($scope.price2) + Number($scope.price3) + Number($scope.tax);
     }
 
     $scope.Show = function() {
